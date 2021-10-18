@@ -1,0 +1,8 @@
+<div class="col-lg-12 control-section">
+  <div id="listbox-control">
+    <h4>Select your favorite car:</h4>
+    <ejs-listbox [dataSource]="data" (change)="select($event)"></ejs-listbox>
+  </div>
+  <div id="chiplist"></div>
+  <ejs-chiplist #chip enableDelete="true"></ejs-chiplist>
+</div>
